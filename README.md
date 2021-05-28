@@ -1,7 +1,20 @@
 # Vehicle Detection
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
+This is based on the solution for the Udacity project for vehicle tracking. It is pretty simple and could come handy in tracking anything not just vehicles.
 
+I added some hunderd training images but ommited the ten thousands GTI & KITTI ones Udadity provided originally. Should only serve as an example to get anyone started. Place in images of dogs and cats instead as you wish to detect them instead of vehicles.
+
+run these commands:
+
+```
+python 34.py            # does the learning
+python 35.py            # processes an image
+python solveVid.py      # processes a video
+```
+
+Caption:
+---
 In this project, your goal is to write a software pipeline to detect vehicles in a video (start with the test_video.mp4 and later implement on full project_video.mp4), but the main output or product we want you to create is a detailed writeup of the project.  Check out the [writeup template](https://github.com/udacity/CarND-Vehicle-Detection/blob/master/writeup_template.md) for this project and use it as a starting point for creating your own writeup.  
 
 Creating a great writeup:
